@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 header h1 {
@@ -40,7 +40,7 @@ header h1 {
 
 .plane {
     position: absolute;
-    height: 200px;
+    height: 140px;
     top: 50%;
     left: -20%;
     transform: rotate(-16deg);
@@ -50,7 +50,7 @@ header h1 {
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 .quote p {
