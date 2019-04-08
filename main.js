@@ -18,7 +18,7 @@ const textPath = {
 };
 
 const tween = new TimelineLite();
-const next = new TimelineLite();
+const text = new TimelineLite();
 
 
 tween.add(
@@ -28,7 +28,7 @@ tween.add(
     })
 );
 
-next.add(
+text.add(
     TweenLite.to('.quote', 1, {
         bezier: textPath,
         ease: Power1.easeInOut
@@ -44,7 +44,6 @@ const scene = new ScrollMagic.Scene({
 })
 .setTween(tween)
 .setPin('.animation')
-.addIndicators()
 .addTo(controller);
 
 const scene2 = new ScrollMagic.Scene({
@@ -52,7 +51,6 @@ const scene2 = new ScrollMagic.Scene({
     duration: 400,
     triggerHook: 0
 })
-.setTween(next)
+.setTween(text)
 .setPin('.animation2')
-.addIndicators()
 .addTo(controller);
