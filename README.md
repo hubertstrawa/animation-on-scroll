@@ -1,5 +1,5 @@
 # animation-on-scroll
-Playing around with ScrollMagic.s and GSAP animations 
+Playing around with ScrollMagic.js and GSAP animations 
 
 ## Demo
 
